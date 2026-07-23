@@ -1,8 +1,28 @@
 aid: bambee
 name: Bambee
-description: 'Bambee is a company surfaced as a portfolio company of qed-investors and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Bambee is an outsourced human-resources platform for American small and
+  mid-sized businesses. Every membership pairs the company with a dedicated HR
+  manager who audits existing HR practices, drafts compliant policies and
+  employee handbooks, and guides owners through hiring, onboarding, corrective
+  action, and terminations. Bambee also offers guided payroll and staff
+  training, positioning itself as an all-in-one HR compliance solution that
+  starts at a low monthly membership. The company is backed by QED Investors and
+  is tracked in the API Evangelist network as a company profile. Bambee does not
+  currently publish a public API, developer portal, or SDKs; this record
+  captures its public web and security surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bambee.com/_nuxt/icons/icon_512x512.f48f7b.png
 url: https://raw.githubusercontent.com/api-evangelist/bambee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Human Resources
+- Payroll
+- HR Compliance
+- Small Business
 - Fintech
 apis: []
 maintainers:
@@ -24,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://bambee.com
+  url: https://www.bambee.com
+- type: Pricing
+  url: https://www.bambee.com/plans/
+- type: Blog
+  url: https://www.bambee.com/blog/
+- type: Support
+  url: https://www.bambee.com/faq/
+- type: TermsOfService
+  url: https://www.bambee.com/legal/tos/
+- type: PrivacyPolicy
+  url: https://www.bambee.com/legal/privacy/
+- type: Login
+  url: https://app.bambee.com/login/
+- type: DomainSecurity
+  url: security/bambee-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
